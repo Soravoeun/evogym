@@ -1,0 +1,39 @@
+.cardImage {
+  width: 450px;
+  cursor: pointer;
+  position: relative;
+  /* padding: 20px; */
+}
+
+.imgCardImage {
+  width: 100%;
+  object-fit: contain;
+}
+
+.cardText {
+  opacity: 0;
+  position: absolute;
+  backdrop-filter: blur(5px);
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+
+.visible {
+  opacity: 1;
+  background-color: rgb(255, 107, 102, 0.5);
+}
+
+h9 {
+  font-weight: 500;
+  font-size: 50px;
+  color: white !important;
+}
+
+.textHidden {
+  text-align: center;
+  font-size: 16px;
+  margin: 40px 0;
+  font-weight: 400;
+  color: white !important;
+}

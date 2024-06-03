@@ -1,0 +1,32 @@
+footer {
+  padding: 64px 0;
+  background-color: var(--background);
+}
+
+.menu-footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin: 0 92px;
+}
+
+.headRight {
+  grid-column: 1/3;
+}
+
+.allRights,
+.headRight,
+.contactUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.footerTitle {
+  margin: 0;
+}
+
+.text {
+  text-align: left;
+}

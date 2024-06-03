@@ -1,0 +1,24 @@
+.gridCardImg {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 0 10px;
+  margin: 30px 10px 0 10px;
+}
+
+.gridCardImg section {
+  display: grid;
+  grid-template-columns: auto;
+  margin: 20px auto;
+  flex: none;
+}
+
+.gridCardImg section .visible {
+  /* display: grid;
+  grid-template-columns: auto;
+  padding: 20px; */
+  /* width: 84%;
+  height: 72%;
+  left: 20px; */
+}

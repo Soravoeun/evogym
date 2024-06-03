@@ -1,0 +1,27 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  --font-weight: 400;
+   background-color: #f8f4eb; 
+}
+
+a {
+  font-weight: var(--font-weight);
+  color: #5e0000;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #ff6b66;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  /* margin: 0 92px; */
+}
+
+.wordInColor{
+  color: #ff6b66;
+}

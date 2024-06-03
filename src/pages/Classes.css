@@ -1,0 +1,9 @@
+.menu-class {
+  padding: 129px 0;
+  background-color: var(--background);
+  /* height: 90%; */
+}
+
+.gridContainer {
+  overflow: scroll;
+}

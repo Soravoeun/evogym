@@ -1,0 +1,58 @@
+:root {
+  --font-size: 14px;
+  --buttonFontSize: 16px;
+  --color: #5e0000;
+  --colorActive: #ff6b66;
+  --background: #ffe1e0;
+}
+
+body {
+  max-width: 1352px;
+  /* margin: 0; */
+  text-align: center;
+  color: var(--color);
+}
+
+.page {
+  margin: 0 112px;
+}
+
+h1 {
+  font-size: 150px;
+  color: rgb(197, 173, 217);
+  text-align: start;
+}
+
+
+.femmeEnSport {
+  display: flex;
+  position: absolute;
+
+  z-index: 2;
+  top: -5px;
+  left: -5px;
+}
+
+.appEvogym {
+  /* width: 750px; */
+
+  /* transform: translate(0px, -255px); */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* padding-left: 100px; */
+  /* background-color: transparent; */
+  flex-basis: 60%;
+}
+
+h4 {
+  font-size: 85px;
+}
+
+h5 {
+  font-size: 70px;
+  font-weight: 90;
+  color: rgb(151, 88, 88);
+}
+
